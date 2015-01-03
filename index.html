@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic-Tac-Toe!</title>
+		<!-- stylesheets -->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!-- libs -->
+		<script type="text/javascript" src="javascript/libs/jquery.js"></script>
+		<!-- scripts -->
+		<script type="text/javascript" src="javascript/scripts/class.Game.js"></script>
+		<script type="text/javascript" src="javascript/scripts/main.js"></script>
+	</head>
+	<body>
+		<div id="screenWrapper">
+			<div class="title"></span><span class="italic">K and T's</span> Tic Tac Toe</div>
+			<div id="boardWrapper">
+				<div class="row row2">
+					<div class="square col0"></div><div class="spacer vertical"></div><!--
+					--><div class="square col1"><div class="piece fa fa-remove"></div></div><div class="spacer vertical"></div><!--
+					--><div class="square col2"></div>
+				</div>
+				<div class="spacer horizontal"></div>
+				<div class="row row1">
+					<div class="square col0"></div><div class="spacer vertical"></div><!--
+					--><div class="square col1"></div><div class="spacer vertical"></div><!--
+					--><div class="square col2"></div>
+				</div>
+				<div class="spacer horizontal"></div>
+				<div class="row row0">
+					<div class="square col0"></div><div class="spacer vertical"></div><!--
+					--><div class="square col1"><div class="piece fa fa-circle-o"></div></div><div class="spacer vertical"></div><!--
+					--><div class="square col2"></div>
+				</div>
+			</div>
+			<div id="optionsWrapper">
+				<div class="options">
+					<div class="startOptions">
+						<div class="button start"><span class="icon-margin-right fa fa-gamepad"></span>play!</div>
+					</div>
+					<div class="liveOptions">
+						<div class="button reset inline"><span class="icon-margin-right fa fa-refresh"></span>reset</div>
+						<div id="messageHolder" class="inline"><div class="message"></div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
